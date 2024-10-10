@@ -1,0 +1,116 @@
+object Form4: TForm4
+  Left = 587
+  Height = 551
+  Top = 208
+  Width = 779
+  BorderStyle = bsSingle
+  Caption = 'Form4'
+  ClientHeight = 551
+  ClientWidth = 779
+  LCLVersion = '2.2.6.0'
+  object Button1: TButton
+    Left = 592
+    Height = 25
+    Top = 512
+    Width = 171
+    Caption = 'Retour au menu principal'
+    OnClick = Button1Click
+    TabOrder = 0
+  end
+  object Label1: TLabel
+    Left = 25
+    Height = 15
+    Top = 120
+    Width = 636
+    Caption = 'Le but du Mastermind est de découvrir en au moins 10 essais une combinaison de 4 couleurs parmi 6 couleurs possibles. '
+    ParentColor = False
+  end
+  object Label2: TLabel
+    Left = 25
+    Height = 45
+    Top = 168
+    Width = 520
+    Caption = 'A chaque essai, le joueur reçoit des indications sur les couleurs et les emplacements qu’il a choisis :'#13#10'• le chiffre sur la colonne gauche indique une couleur bien placée'#13#10'• le chiffre sur la colonne droite indique une bonne couleur mais mal placée.'
+    ParentColor = False
+  end
+  object Label3: TLabel
+    Left = 23
+    Height = 30
+    Top = 368
+    Width = 740
+    Caption = 'La stratégie consiste à choisir les couleurs et leur emplacement en fonction des coups précédents. Le but est d’obtenir le plus d’informations '#13#10'et de se rapprocher le plus rapidement possible de la solution puisque le nombre de propositions est limité.'
+    ParentColor = False
+  end
+  object Label4: TLabel
+    Left = 23
+    Height = 15
+    Top = 152
+    Width = 132
+    Caption = ' Pour la partie décodeur :'
+    ParentColor = False
+  end
+  object Label5: TLabel
+    Left = 320
+    Height = 45
+    Top = 24
+    Width = 97
+    Caption = 'Règles'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -32
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label6: TLabel
+    Left = 24
+    Height = 15
+    Top = 224
+    Width = 745
+    Caption = 'Pour le code secret, on peut mettre la même couleur autant de fois que l''on veut. Par exemple : 4 fois le jaune, 2 fois le jaune et 2 fois le bleu,  '
+    ParentColor = False
+  end
+  object Label7: TLabel
+    Left = 23
+    Height = 15
+    Top = 240
+    Width = 182
+    Caption = '3 fois le vert et 1 fois le violet, etc...'
+    ParentColor = False
+  end
+  object Label8: TLabel
+    Left = 23
+    Height = 30
+    Top = 264
+    Width = 751
+    Caption = 'Donc imaginons il y a un seul jaune dans le code secret et dans votre tour vous mettez 4 fois le jaune, l''IA  indiquera sur la colonne de gauche 1'#13#10'car il y en aura forcément 1 des 4 jaunes bien placée et il indiquera sur la colonne de droite 0 car il y a une seule fois le jaune.  '
+    ParentColor = False
+    OnClick = Label8Click
+  end
+  object Label10: TLabel
+    Left = 23
+    Height = 30
+    Top = 416
+    Width = 689
+    Caption = 'Pour la partie codeur, vous choisirez votre code secret parmi 1 296 possibilités à faire deviner à l''IA. Dès qu''il aura fini son tour, vous'#13#10'indiquerez le nombre de couleurs bien placées et le nombre de bonnes couleurs mais mals placées.  '
+    ParentColor = False
+  end
+  object Label11: TLabel
+    Left = 23
+    Height = 15
+    Top = 456
+    Width = 476
+    Caption = 'C''est un jeu de réflexion alors ayez la patience et vous trouverez comment briser le secret ! '
+    ParentColor = False
+  end
+  object Label9: TLabel
+    Left = 24
+    Height = 30
+    Top = 304
+    Width = 727
+    Caption = 'Autre exemple, imaginons le code secret est : 2 rouges, 1 bleu, 1 vert. Si l''essai est 4 rouges, il y a aura 2 sur la colonne de gauche et 0 sur la'#13#10'colonne de droite. Et si l''essai est d''abord 2 jaunes, puis 2 rouges, il y aura 0 sur la colonne de gauche et 2 sur la colonne de droite. '
+    ParentColor = False
+    OnClick = Label8Click
+  end
+end

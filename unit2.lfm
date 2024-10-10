@@ -1,0 +1,225 @@
+object Form2: TForm2
+  Left = 566
+  Height = 873
+  Top = 64
+  Width = 783
+  Caption = 'Form2'
+  ClientHeight = 873
+  ClientWidth = 783
+  OnCreate = FormCreate
+  LCLVersion = '2.2.6.0'
+  object Button1: TButton
+    Left = 600
+    Height = 25
+    Top = 832
+    Width = 171
+    Caption = 'Retour au menu principal'
+    OnClick = Button1Click
+    TabOrder = 0
+  end
+  object StringGrid1: TStringGrid
+    Left = 200
+    Height = 272
+    Top = 336
+    Width = 392
+    ColCount = 6
+    Enabled = False
+    FixedCols = 0
+    FixedRows = 0
+    RowCount = 12
+    TabOrder = 1
+  end
+  object Button2: TButton
+    Left = 304
+    Height = 25
+    Top = 48
+    Width = 176
+    Caption = 'Lancer la partie'
+    OnClick = Button2Click
+    TabOrder = 2
+  end
+  object Label1: TLabel
+    Left = 136
+    Height = 21
+    Top = 128
+    Width = 76
+    Caption = '                   '
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -16
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+  end
+  object Button3: TButton
+    Left = 216
+    Height = 25
+    Top = 664
+    Width = 75
+    Caption = 'Rouge'
+    Color = clRed
+    Enabled = False
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clRed
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    OnClick = Button3Click
+    ParentFont = False
+    TabOrder = 3
+  end
+  object Button4: TButton
+    Left = 352
+    Height = 25
+    Top = 664
+    Width = 75
+    Caption = 'Jaune'
+    Color = clYellow
+    Enabled = False
+    OnClick = Button4Click
+    TabOrder = 4
+  end
+  object Button5: TButton
+    Left = 504
+    Height = 25
+    Top = 664
+    Width = 75
+    Caption = 'Vert'
+    Color = clGreen
+    Enabled = False
+    OnClick = Button5Click
+    TabOrder = 5
+  end
+  object Button6: TButton
+    Left = 216
+    Height = 25
+    Top = 720
+    Width = 75
+    Caption = 'Bleu'
+    Color = clBlue
+    Enabled = False
+    OnClick = Button6Click
+    TabOrder = 6
+  end
+  object Button7: TButton
+    Left = 352
+    Height = 25
+    Top = 720
+    Width = 75
+    Caption = 'Fuchsia'
+    Color = clFuchsia
+    Enabled = False
+    OnClick = Button7Click
+    TabOrder = 7
+  end
+  object Button8: TButton
+    Left = 504
+    Height = 25
+    Top = 720
+    Width = 75
+    Caption = 'Violet'
+    Color = clPurple
+    Enabled = False
+    OnClick = Button8Click
+    TabOrder = 8
+  end
+  object Label2: TLabel
+    Left = 240
+    Height = 33
+    Top = 632
+    Width = 21
+    Caption = '■'
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clRed
+    Font.Height = -27
+    Font.Name = 'Showcard Gothic'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label3: TLabel
+    Left = 376
+    Height = 33
+    Top = 632
+    Width = 21
+    Caption = '■'
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clYellow
+    Font.Height = -27
+    Font.Name = 'Showcard Gothic'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label4: TLabel
+    Left = 528
+    Height = 33
+    Top = 632
+    Width = 21
+    Caption = '■'
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clGreen
+    Font.Height = -27
+    Font.Name = 'Showcard Gothic'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label5: TLabel
+    Left = 240
+    Height = 33
+    Top = 688
+    Width = 21
+    Caption = '■'
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clBlue
+    Font.Height = -27
+    Font.Name = 'Showcard Gothic'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label6: TLabel
+    Left = 376
+    Height = 33
+    Top = 688
+    Width = 21
+    Caption = '■'
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clFuchsia
+    Font.Height = -27
+    Font.Name = 'Showcard Gothic'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label7: TLabel
+    Left = 528
+    Height = 33
+    Top = 688
+    Width = 21
+    Caption = '■'
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clPurple
+    Font.Height = -27
+    Font.Name = 'Showcard Gothic'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object SaveDialog1: TSaveDialog
+    Left = 40
+    Top = 32
+  end
+end
