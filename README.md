@@ -1,6 +1,6 @@
 # Mastermind
 
-In my second year of computer science, I made a Mastermind game with Nathan on Lazarus (Pascal). 
+In my second year of computer science, I made a Mastermind game with nic0119 on Lazarus (Pascal). 
 
 Mastermind is is a code-breaking game for 2 player, an encoder and decoder. There are many variants of the game. 
 
